@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rog.efarmer1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/onefarmlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/onefarmlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".homepage"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tag1"
+            android:label="tag1"
+            android:parentActivityName=".homepage" />
+        <activity
+            android:name=".tag2"
+            android:parentActivityName=".homepage" />
+        <activity
+            android:name=".tag3"
+            android:parentActivityName=".homepage" />
+        <activity android:name=".register" />
+        <activity android:name=".product" />
+        <activity android:name=".like" />
+        <activity android:name=".edit" />
+        <activity android:name=".new_product" />
+        <activity android:name=".review" />
+        <activity android:name=".tag4" />
+        <activity android:name=".comment" />
+        <activity android:name=".news" />
+        <activity android:name=".post_detail" />
+        <activity android:name=".Fruit" />
+        <activity android:name=".Vegetable" />
+        <activity android:name=".Commodity" />
+        <activity android:name=".Medicine" />
+        <activity android:name=".Seafood" />
+        <activity android:name=".Livestock" />
+        <activity android:name=".tag5" />
+        <activity android:name=".tag6"></activity>
+    </application>
+
+</manifest>

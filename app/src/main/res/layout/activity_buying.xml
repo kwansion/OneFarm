@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buying"
+    tools:showIn="a"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/likes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:drawableLeft="@drawable/like"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="My Likes"
+        android:background="@color/cardview_light_background"
+        android:gravity="start|center"
+        android:layout_marginBottom="3dp"/>
+
+    <Button
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/account"
+        android:background="@color/cardview_light_background"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="My Account"
+        android:gravity="start|center"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/post"
+        android:background="@color/cardview_light_background"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="Post Discover"
+        android:gravity="start|center" />
+
+</LinearLayout>
